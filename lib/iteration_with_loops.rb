@@ -11,7 +11,7 @@ def find_even_values(src)
     while inside_count < src[outside_count].length do
       if src[outside_count][inside_count] % 2 == 0
         even_values.push(src[outside_count][inside_count])
-        inside_count += 1 
+        inside_count += 1
       end
     end
     outside_count += 1
