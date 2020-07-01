@@ -16,5 +16,14 @@ def find_even_values(src)
     end
     outside_count += 1
   end
-  even_values
+  p even_values
 end
+
+
+src = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+
+find_even_values(src)
