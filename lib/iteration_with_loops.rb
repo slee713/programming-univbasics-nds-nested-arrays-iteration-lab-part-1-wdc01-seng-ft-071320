@@ -14,7 +14,7 @@ def find_even_values(src)
         inside_count += 1 
       end
     end
-    outside_count += 1 
+    outside_count += 1
   end
   even_values
 end
